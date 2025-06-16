@@ -7,12 +7,11 @@ CORS(app)  # ✅ Enable CORS for all routes
 
 # MySQL connection
 mydb = mysql.connector.connect(
-    host="localhost",
-    user="root",
-    password="sandeep123",  # Change if needed
-    database="portfolio"
+    host="sql100.infinityfree.com",
+    user="if0_39246647",
+    password="pF76xUZ5I22zAl",  # Change if needed
+    database="if0_39246647_portfolio"
 )
-
 @app.route('/')
 def index():
     return render_template("index.html")
