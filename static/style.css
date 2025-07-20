@@ -566,7 +566,27 @@ section {
   transform: translateY(-2px);
   box-shadow: 0 4px 12px rgba(227, 123, 44, 0.3);
 }
+#connect-button {
+  height: 45px;
+  width: 110px;
+  font-size: 1rem;
+  border-radius: 20px;
+  cursor: pointer;
+  border: none;
+  background-color: #E37B2C;
+  color: white;
+  font-weight: 600;
+  transition: all 0.3s ease;
+  padding: 20px 10px 0px 10px;
+  margin-top: 50px;
+  text-decoration: none;
+}
 
+#connect-button:hover {
+  background-color: #d16a26;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(227, 123, 44, 0.3);
+}
 /* --- Notification --- */
 .notification-area {
   position: fixed;
